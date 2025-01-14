@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.section-one__contact{
+    display: inline-block;
+    font-weight: 400;
+    background-color: #ffd400;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
+
+.section-one__contact:hover{
+    border: solid #ffd400 2px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 7px 12px 7px 12px;
+}
+
+.section-one__name{
+    font-size: 60px;
+}
+
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-two, .section-three, .section-four, .section-five{
+    margin-top: 20px;
+}
+
+.section-two__desc, .section-three__desc, .section-four__desc, .section-five__desc{
+    margin-top: 10px;
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.section-five__title a{
+    color: skyblue;
+}
+
+.section-three li, .section-four li{
+    list-style: none;
+}
+
+
+
+.section-three{
+    background-color: #6462FD;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    vertical-align: top;
+    transition: 1s;
+}
+
+.section-three:hover{
+    height: 250px;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.section-four{
+    background-color: #ffd400;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    vertical-align: top;
+    transition: 1s;
+}
+
+.section-four:hover{
+    height: 250px;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+/* styling the contact form */
+
+.contact-form{
+    margin-top: 20px;
+    line-height: 70px;
+}
+
+.contact-form__input, .contact-form__textarea, .contact-form__button{
+    margin-top: 10px;
+}
+
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__textarea{
+    padding: 15px;
+    border: none;
+    border: solid black 3px;
+}
+
+.contact-form__button{
+    border: none;
+    padding: 7px 10px 7px 10px;
+    background-color: #ffd400;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.799);
+    border-radius: 5px;
+}
+
+.contact-form__button:hover{
+    border: solid #ffd400 1px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
